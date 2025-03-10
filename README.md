@@ -4,7 +4,7 @@
 
 ### 1️⃣ Clone the Repository
 
-git clone
+git clone https://github.com/Gauravagrawal7/Hero.git
 cd Graphi
 
 ###2️⃣ Install Dependencies
@@ -15,7 +15,7 @@ npm run dev
 
 ###4️⃣ Navigate to Localhost URL
 Open the browser and go to:
-👉
+👉 http://localhost:5173/
 
 ###5️⃣ Compile and Minify for Production
 If you want to create a production build, run:
