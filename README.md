@@ -7,13 +7,16 @@
 git clone https://github.com/Gauravagrawal7/Hero.git
 cd Hero
 
-###2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
+
 npm install
 
-###3️⃣ Start the Development Server
+### 3️⃣ Start the Development Server
+
 npm run dev
 
-###4️⃣ Navigate to Localhost URL
+### 4️⃣ Navigate to Localhost URL
+
 Open the browser and go to:
 👉 http://localhost:5173/
 
