@@ -5,7 +5,7 @@
 ### 1️⃣ Clone the Repository
 
 git clone https://github.com/Gauravagrawal7/Hero.git
-cd Graphi
+cd Hero
 
 ###2️⃣ Install Dependencies
 npm install
