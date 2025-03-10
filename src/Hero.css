@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins:wght@100..900&family=Syne:wght@400..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 5%;
+  background: #ffffff;
+  border-radius: 50px;
+  width: 100%;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.navbar .logo {
+  position: absolute;
+  left: 37px;
+  width: 48px;
+  height: 48px;
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: border 0.3s ease, text-decoration 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.navbar .logo:hover {
+  border: 2px solid blue;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.nav-links {
+  position: absolute;
+  right: 284px;
+  background-color: #f2f2f4;
+  padding: 12px 32px;
+  display: flex;
+  border-radius: 50px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  gap: 130px;
+}
+
+.nav-links {
+  position: absolute;
+  right: 284px;
+  background-color: #f2f2f4;
+  padding: 12px 32px;
+  display: flex;
+  border-radius: 50px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  gap: 130px;
+  transition: border 0s ease;
+}
+
+.nav-links:hover {
+  border: 2px solid blue;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.pricing-btn {
+  position: absolute;
+  right: 49px;
+  padding: 10px 21px;
+  background: #292929;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 600;
+  text-align: center;
+  transition: border 0.3s ease, text-decoration 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.pricing-btn:hover {
+  border: 2px solid blue;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 8%;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-left h1 {
+  position: absolute;
+  width: 1242px;
+  height: 240px;
+  left: 37px;
+  top: 163px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 49px;
+  line-height: 49px;
+  color: #000000;
+  white-space: nowrap;
+}
+
+.hero-left h1:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.hero-left.poppins-bold {
+  position: absolute;
+  width: 1259px;
+  height: 240px;
+  left: 37px;
+  top: 219px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 49px;
+  line-height: 49px;
+  color: #000000;
+  white-space: nowrap;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.hero-right {
+  flex: 1;
+  max-width: 100%;
+}
+
+.hero-right :hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.paragraph-text {
+  position: absolute;
+  width: 467px;
+  height: 138px;
+  right: 47px;
+  top: 172px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #7d7d7d;
+  font-size: 18px;
+  color: #7d7d7d;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.artboards-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.artboards {
+  position: absolute;
+  right: 50px;
+  top: 150px;
+  text-align: right;
+}
+
+.artboards h2 {
+  position: absolute;
+  top: -114px;
+  right: -166px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 69px;
+  line-height: 1.2;
+  color: #000;
+  margin: 0;
+}
+
+.artboards p {
+  position: absolute;
+  top: -46px;
+  right: -165px;
+  font-size: 28px;
+  color: #7d7d7d;
+  margin: 0;
+}
+
+.artboards p :hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.content-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+  padding: 5% 8%;
+}
+
+.content-section :hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.content-left {
+  flex: 1;
+  max-width: 1000px;
+}
+
+.content-left :hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.content-description {
+  position: absolute;
+  align-items: flex-start;
+  width: 802px;
+  height: 111px;
+  left: 37px;
+  top: 394px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  color: #7d7d7d;
+}
+
+.content-description :hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.text {
+  font-size: 14px;
+  color: #333;
+  max-width: 300px;
+}
+
+.text :hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.small-rectangle {
+  position: absolute;
+  width: 307px;
+  height: 84px;
+  left: 37px;
+  top: 544px;
+  background: #d9d9d9;
+  border-radius: 100px;
+  transition: border 0.3s ease-in-out;
+}
+
+.small-rectangle:hover {
+  border: 3px solid blue;
+}
+
+.content-image {
+  margin-top: 170px;
+  margin-left: 37px;
+  max-width: 1436px;
+}
+
+.pro-choice {
+  position: absolute;
+  width: 243px;
+  height: 140px;
+  left: 550px;
+  top: 746px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 45px;
+  color: #000000;
+  text-align: center;
+  margin: 40px 0;
+  transition: text-decoration 0.3s ease;
+}
+
+.pro-choice:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.logo-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  opacity: 0.5;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.clip-ellipse {
+  clip-path: polygon(50% 50%, 100% 0, 100% 100%);
+}
+
+.clip-star {
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+.brand-section {
+  position: relative;
+}
+
+.brand {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 80px;
+  color: #e3e3e4;
+  position: absolute;
+}
+
+.bitel {
+  font-family: "Poppins", sans-serif;
+  left: 988px;
+  top: -121px;
+}
+
+.kotil {
+  font-family: "Potta One", cursive;
+  left: 1106px;
+  top: -121px;
+}
+
+.miner {
+  font-family: "ASTERA", sans-serif;
+  left: 1262px;
+  top: -121px;
+}
+
+.brand:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.stat-number-text {
+  position: absolute;
+  right: 47px;
+  top: 808px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+}
+
+.stat-number-text:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.stat-label-text {
+  position: absolute;
+  right: 47px;
+  top: 865px;
+  font-size: 24px;
+  color: #7d7d7d;
+}
+
+.stat-label-text:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
