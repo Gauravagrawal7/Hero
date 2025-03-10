@@ -1,4 +1,4 @@
-# Graphi Login Version 2
+# Hero
 
 ## 🚀 Setup Instructions
 
